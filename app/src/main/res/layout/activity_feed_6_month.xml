@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="org.estebanmarroquin.babycare.activities.feeding.feeding.feed_6_month">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Alimentacion en el sexto mes"
+        android:id="@+id/textView120"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="En cuanto a la alimentación que debe llevar, el bebé ya empieza a comer papillas. Los distintos alimentos pueden introducirse poco a poco, dejando un intervalo de 3 o 4 días entre alimentos nuevos para poder detectar posibles reacciones alérgicas."
+        android:id="@+id/textView121"
+        android:layout_below="@+id/textView120"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="67dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Los cereales suelen ser los primeros alimentos en introducir, se añaden a la leche y los pueden tomar con biberón o papilla. Es preferible introducir primero cereales sin gluten y posteriormente con gluten. Respecto a las frutas, las primeras que se introducen son la manzana, plátano y pera. "
+        android:id="@+id/textView122"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="70dp" />
+</RelativeLayout>

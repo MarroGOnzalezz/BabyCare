@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="org.estebanmarroquin.babycare.activities.feeding.feeding.feed_9_month">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Alimentacion en el noveno mes"
+        android:id="@+id/textView167"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Por lo general, los bebés de nueve meses ya habrán probado la mayoría de las frutas y verduras, así como la carne de pollo, de pavo, ternera y otras. Una vez que el pequeño haya probado cada verdura en los purés, se debería combinar los alimentos para variar los sabores y las texturas. Algunos bebés ya pueden probar algo de legumbres como lentejas, como también el arroz. Tanto la sal como el azúcar no deben ser añadidos a la dieta de los bebés de nueve meses. Solo se puede añadir un poquito de aceite de oliva en los purés de verdura. El bebé puede seguir probando trocitos de fruta, de pan, que no ofrezcan riesgos de atragantamiento."
+        android:id="@+id/textView168"
+        android:layout_below="@+id/textView167"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView20"
+        android:layout_below="@+id/textView168"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/feed_9_month" />
+</RelativeLayout>

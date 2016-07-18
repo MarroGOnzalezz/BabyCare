@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.estebanmarroquin.babycare">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".AndroidChatApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/MyMaterialTheme">
+        <activity android:name=".login.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".mainactivity.MainActivity" />
+        <activity android:name=".activities.feeding.feeding.feed_1_month" />
+        <activity android:name=".activities.feeding.feeding.feed_2_month" />
+        <activity android:name=".activities.feeding.feeding.feed_3_month" />
+        <activity android:name=".activities.feeding.health.health_1_month" />
+        <activity android:name=".activities.feeding.health.health_2_month" />
+        <activity android:name=".activities.feeding.health.health_3_month" />
+        <activity android:name=".activities.feeding.health.health_4_month" />
+        <activity android:name=".activities.feeding.health.health_5_month" />
+        <activity android:name=".activities.feeding.health.health_6_month" />
+        <activity android:name=".activities.feeding.health.health_7_month" />
+        <activity android:name=".activities.feeding.health.health_8_month" />
+        <activity android:name=".activities.feeding.health.health_9_month" />
+        <activity android:name=".activities.feeding.health.health_10_month" />
+        <activity android:name=".activities.feeding.health.health_11_month" />
+        <activity android:name=".activities.feeding.health.health_12_month" />
+        <activity android:name=".activities.feeding.feeding.feed_4_month" />
+        <activity android:name=".activities.feeding.feeding.feed_5_month" />
+        <activity android:name=".activities.feeding.feeding.feed_6_month" />
+        <activity android:name=".activities.feeding.feeding.feed_7_month" />
+        <activity android:name=".activities.feeding.feeding.feed_8_month" />
+        <activity android:name=".activities.feeding.feeding.feed_9_month" />
+        <activity android:name=".activities.feeding.feeding.feed_10_month" />
+        <activity android:name=".activities.feeding.feeding.feed_11_month" />
+        <activity android:name=".activities.feeding.feeding.feed_12_month" />
+        <activity android:name=".activities.feeding.size.size_1_month" />
+        <activity android:name=".activities.feeding.size.size_2_month" />
+        <activity android:name=".activities.feeding.size.size_3_month" />
+        <activity android:name=".activities.feeding.size.size_4_month" />
+        <activity android:name=".activities.feeding.size.size_5_month" />
+        <activity android:name=".activities.feeding.size.size_6_month" />
+        <activity android:name=".activities.feeding.size.size_7_month" />
+        <activity android:name=".activities.feeding.size.size_8_month" />
+        <activity android:name=".activities.feeding.size.size_9_month" />
+        <activity android:name=".activities.feeding.size.size_10_month" />
+        <activity android:name=".activities.feeding.size.size_11_month" />
+        <activity android:name=".activities.feeding.size.size_12_month" />
+        <activity android:name=".activities.feeding.habits.habits_1_month" />
+        <activity android:name=".activities.feeding.habits.habits_2_month" />
+        <activity android:name=".activities.feeding.habits.habits_3_month" />
+        <activity android:name=".activities.feeding.habits.habits_4_month" />
+        <activity android:name=".activities.feeding.habits.habits_5_month" />
+        <activity android:name=".activities.feeding.habits.habits_6_month" />
+        <activity android:name=".activities.feeding.habits.habits_7_month" />
+        <activity android:name=".activities.feeding.habits.habits_8_month" />
+        <activity android:name=".activities.feeding.habits.habits_9_month" />
+        <activity android:name=".activities.feeding.habits.habits_10_month" />
+        <activity android:name=".activities.feeding.habits.habits_11_month" />
+        <activity android:name=".activities.feeding.habits.habits_12_month" />
+        <activity android:name=".activities.feeding.development.development_1_month" />
+        <activity android:name=".activities.feeding.development.development_2_month" />
+        <activity android:name=".activities.feeding.development.development_3_month" />
+        <activity android:name=".activities.feeding.development.development_4_month" />
+        <activity android:name=".activities.feeding.development.development_5_month" />
+        <activity android:name=".activities.feeding.development.development_6_month" />
+        <activity android:name=".activities.feeding.development.development_7_month" />
+        <activity android:name=".activities.feeding.development.development_8_month" />
+        <activity android:name=".activities.feeding.development.development_9_month" />
+        <activity android:name=".activities.feeding.development.development_10_month" />
+        <activity android:name=".activities.feeding.development.development_11_month" />
+        <activity android:name=".activities.feeding.development.development_12_month"></activity>
+    </application>
+
+</manifest>

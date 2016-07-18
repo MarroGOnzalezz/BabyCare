@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="org.estebanmarroquin.babycare.activities.feeding.size.size_8_month">
+
+    <RelativeLayout tools:context="org.estebanmarroquin.babycare.activities.feeding.size.size_1_month"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Altura y peso en el octavo mes"
+            android:id="@+id/textView150"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Niño"
+            android:id="@+id/textView151"
+            android:layout_marginTop="53dp"
+            android:layout_below="@+id/textView150"
+            android:layout_alignLeft="@+id/textView150"
+            android:layout_alignStart="@+id/textView150" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="peso(kg)  Mín 7.800 Max. 9.800"
+            android:id="@+id/textView152"
+            android:layout_below="@+id/textView151"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="talla(cm) Mín 68.3 Max. 73.6"
+            android:id="@+id/textView153"
+            android:layout_below="@+id/textView152"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Niña"
+            android:id="@+id/textView154"
+            android:layout_above="@+id/textView155"
+            android:layout_alignLeft="@+id/textView151"
+            android:layout_alignStart="@+id/textView151" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="peso(kg) Mín. 7.200 Max. 9.100"
+            android:id="@+id/textView155"
+            android:layout_centerVertical="true"
+            android:layout_alignRight="@+id/textView152"
+            android:layout_alignEnd="@+id/textView152" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="talla(cm)  Mín. 66.4 Max. 71.8"
+            android:id="@+id/textView156"
+            android:layout_below="@+id/textView155"
+            android:layout_toRightOf="@+id/textView154"
+            android:layout_toEndOf="@+id/textView154" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView17"
+            android:layout_below="@+id/textView156"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/size" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="org.estebanmarroquin.babycare.mainactivity.activity.HomeFragment"
+    android:background="@drawable/header_background">
+
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_marginTop="32dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="45dp"
+        android:text="¡Bienvenidos!"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="El nacimeinto de su bebe es uno de los eventos mas emocionantes de su vida y un momento que siempre atesorara y recordara. Las vivencias durante el parto sera algo que relatara a amigos, familiares e incluso a su hijo."
+        android:id="@+id/textView241"
+        android:layout_marginTop="31dp"
+        android:layout_below="@+id/label"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Su viaje estara lleno de emocion, regocijo y un elemento de miedo a lo desconocido. El proposito de esta aplicacion es ayudarla a comprender el proceso del trabajo de crianza."
+        android:id="@+id/textView242"
+        android:layout_below="@+id/textView241"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="62dp" />
+
+</RelativeLayout>

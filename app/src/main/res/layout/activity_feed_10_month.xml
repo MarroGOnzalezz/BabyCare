@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="org.estebanmarroquin.babycare.activities.feeding.feeding.feed_10_month">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Alimentacion en el decimo mes"
+        android:id="@+id/textView187"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Por lo general, los bebés de diez meses ya pueden comer más de los alimentos que suele comer su familia, y es muy probable que pueda masticar alguna cosita ya que tiene dientes. El bebé podrá, por ejemplo, comer un plátano o chupar una naranja, aunque se ensúcie entero. En esta etapa, los bebés ya comen por si mismos con una cuchara y cada vez habrá más alimentos sólidos y enteros en su dieta. Será más fácil alimentar a un bebé de esta edad. Aún así, no se debe olvidar de introducir sólo un alimento nuevo a la vez y esperar por lo menos dos días para asegurarse de que el bebé no sea alérgico a cualquier cosa que haya comido."
+        android:id="@+id/textView188"
+        android:layout_below="@+id/textView187"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="46dp" />
+</RelativeLayout>

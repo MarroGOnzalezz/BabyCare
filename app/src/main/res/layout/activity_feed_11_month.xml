@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="org.estebanmarroquin.babycare.activities.feeding.feeding.feed_11_month">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Alimentacion en el onceavo mes"
+        android:id="@+id/textView208"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="En esta etapa, muchos bebés ya empiezan a tener en su dieta las legumbres. Al principio, se mezclan las legumbres a las verduras. Su introducción a la alimentación del bebé debe ser gradual para evitar la flatulencia. El bebé experimentará una sana y rica dieta proteica. TAmbién se puede ofrecer las legumbres a los bebés en forma de purés."
+        android:id="@+id/textView209"
+        android:layout_below="@+id/textView208"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="51dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView26"
+        android:layout_below="@+id/textView209"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/bebe_pan" />
+</RelativeLayout>

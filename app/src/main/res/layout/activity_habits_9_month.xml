@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="org.estebanmarroquin.babycare.activities.feeding.habits.habits_9_month">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Habitos en el noveno mes"
+        android:id="@+id/textView176"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Se puede levantar con sus manos y rodillas preparándose para gatear. Sin embargo, los bebés tienen tiempos y estilos de gateo que difieren mucho."
+        android:id="@+id/textView177"
+        android:layout_below="@+id/textView176"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Su equilibrio está mejorando con rapidez. Tiene capacidad para combinar la posición de sentado con otras actividades, tal como jugar con una pelota."
+        android:id="@+id/textView178"
+        android:layout_below="@+id/textView177"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="51dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Agarra y maneja los objetos con habilidad."
+        android:id="@+id/textView179"
+        android:layout_below="@+id/textView178"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="53dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView22"
+        android:layout_below="@+id/textView179"
+        android:layout_alignRight="@+id/textView176"
+        android:layout_alignEnd="@+id/textView176"
+        android:src="@drawable/habits_9_month" />
+</RelativeLayout>

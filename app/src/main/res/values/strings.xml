@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">BabyCare</string>
+    <string name="login.message.email">Correo electronico</string>
+    <string name="login.message.password">Password</string>
+    <string name="login.button.signin">Iniciar sesion</string>
+    <string name="login.button.signup">Crear cuenta</string>
+
+    <string name="login.notice.message.signup">Usuario registrado exitosamente</string>
+    <string name="login.error.message.signin">Imposible iniciar sesión %s</string>
+    <string name="login.error.message.signup">Imposible registrar nuevo usuario %s</string>
+    <string name="contactlist.menu.action.signoff">Cerrar sesión</string>
+    <string name="contactlist.title">Contacts</string>
+
+    <string name="addcontact.message.title">Agregar contacto</string>
+    <string name="addcontact.message.add">Aceptar</string>
+    <string name="addcontact.message.cancel">Cancelar</string>
+    <string name="addcontact.message.contactadded">Contacto agregado exitosamente</string>
+    <string name="addcontact.error.message">Imposible agregar usuario no existente</string>
+
+
+    <!-- navigation drawer item labels  -->
+
+    <string name="action_settings">Ajustes</string>
+    <string name="action_close">Salir</string>
+    <string name="action_search">Search</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="nav_item_home">Inicio</string>
+    <string name="nav_item_health">Salud</string>
+    <string name="nav_item_feed">Alimentacion</string>
+    <string name="nav_item_wandh">Talla y peso</string>
+    <string name="nav_item_habits">Habitos</string>
+    <string name="nav_item_development">Desarrollo</string>
+
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_home</item>
+        <item>@string/nav_item_health</item>
+        <item>@string/nav_item_feed</item>
+        <item>@string/nav_item_wandh</item>
+        <item>@string/nav_item_habits</item>
+        <item>@string/nav_item_development</item>
+    </string-array>
+
+    <string name="title_home">Inicio</string>
+    <string name="title_health">Salud</string>
+    <string name="title_feed">Alimentacion</string>
+    <string name="title_wandh">Talla y peso</string>
+    <string name="title_habits">Habitos</string>
+    <string name="title_development">Desarrollo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="activity_feed_one_month">Dar al bebé Leche materna, si es posible, a demanda y en exclusiva hasta los 6 meses.
+
+    Si no es posible amamantar al bebé, debe tomar leche de fórmula de inicio 1, hasta el 4 - 6 mes.</string>
+
+
+    <string-array name="months">
+        <item>Primer mes</item>
+        <item>Segundo mes</item>
+        <item>Tercer mes</item>
+        <item>Cuarto mes</item>
+        <item>Quinto mes</item>
+        <item>Sexto mes</item>
+        <item>Septimo mes</item>
+        <item>Octavo mes</item>
+        <item>Noveno mes</item>
+        <item>Decimo mes</item>
+        <item>Onceavo mes</item>
+        <item>Doceavo mes</item>
+    </string-array>
+
+</resources>

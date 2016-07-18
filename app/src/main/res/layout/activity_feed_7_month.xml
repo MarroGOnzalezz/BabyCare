@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="org.estebanmarroquin.babycare.activities.feeding.feeding.feed_7_month">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Alimentacion en el septimo mes"
+        android:id="@+id/textView110"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="En lo que se refiere a la alimentación de un bebé de siete meses, ya se empieza a introducir la carne blanca y la roja. Lo mejor es empezar introduciéndole en la carne blanca, como el pollo y el pavo, y luego más tarde, cuando el niño ya de acostumbre al sabor, ir poco a poco ofreciéndole la carne roja. Todo eso sin prisas ni agobios. Siempre en forma de compota"
+        android:id="@+id/textView111"
+        android:layout_below="@+id/textView110"
+        android:layout_alignLeft="@+id/textView110"
+        android:layout_alignStart="@+id/textView110"
+        android:layout_marginTop="42dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView5"
+        android:layout_below="@+id/textView111"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="76dp"
+        android:src="@drawable/feed_7_month" />
+</RelativeLayout>

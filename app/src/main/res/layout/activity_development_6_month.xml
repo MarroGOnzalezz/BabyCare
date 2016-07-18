@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="org.estebanmarroquin.babycare.activities.feeding.development.development_6_month">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Desarrollo en el sexto mes"
+        android:id="@+id/textView116"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Acostado puede pasar de estar boca abajo a boca arriba"
+        android:id="@+id/textView117"
+        android:layout_below="@+id/textView116"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="43dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="La visión del bebé se ha desarrollado de manera que puede ver las cosas en color y puede enfocar sus ojos a diferentes distancias. Puede seguir el movimiento uniformemente en un ángulo de 180 grados."
+        android:id="@+id/textView118"
+        android:layout_below="@+id/textView117"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="52dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Los primeros dientes del bebé pudieran estar listos para salir. El primer diente puede aparecer aproximadamente en estos meses, aunque puede variar mucho entre un bebé y otro. (Síntomas y Dentición pasar a Cuidados del Bebé/Dientes)."
+        android:id="@+id/textView119"
+        android:layout_below="@+id/textView118"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="60dp" />
+</RelativeLayout>
